@@ -38,72 +38,33 @@
 	font-style: normal;
 	font-weight: normal;
 }
+/* font-family: "OpenSans-Bold"; */
 @font-face {
-	font-family: "CalligraphMedium";
-	src: url("../fonts/CalligraphMedium/CalligraphMedium.eot");
-	src: url("../fonts/CalligraphMedium/CalligraphMedium.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/CalligraphMedium/CalligraphMedium.woff") format("woff"),
-	url("../fonts/CalligraphMedium/CalligraphMedium.ttf") format("truetype");
+	font-family: "OpenSans-Bold";
+	src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
+	src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"),
+	url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
-/* font-family: "EurofurenceRegular"; */
+/* font-family: "OpenSans-Regular"; */
 @font-face {
-    font-family: "EurofurenceRegular";
-    src: url("../fonts/EurofurenceRegular/EurofurenceRegular.eot");
-    src: url("../fonts/EurofurenceRegular/EurofurenceRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/EurofurenceRegular/EurofurenceRegular.woff") format("woff"),
-    url("../fonts/EurofurenceRegular/EurofurenceRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+	font-family: "OpenSans-Regular";
+	src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot");
+	src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"),
+	url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
-/* font-family: "EurofurenceBold"; */
-@font-face {
-    font-family: "EurofurenceBold";
-    src: url("../fonts/EurofurenceBold/EurofurenceBold.eot");
-    src: url("../fonts/EurofurenceBold/EurofurenceBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/EurofurenceBold/EurofurenceBold.woff") format("woff"),
-    url("../fonts/EurofurenceBold/EurofurenceBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "EurofurenceItalic"; */
-@font-face {
-    font-family: "EurofurenceItalic";
-    src: url("../fonts/EurofurenceItalic/EurofurenceItalic.eot");
-    src: url("../fonts/EurofurenceItalic/EurofurenceItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/EurofurenceItalic/EurofurenceItalic.woff") format("woff"),
-    url("../fonts/EurofurenceItalic/EurofurenceItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "EurofurenceLight"; */
-@font-face {
-    font-family: "EurofurenceLight";
-    src: url("../fonts/EurofurenceLight/EurofurenceLight.eot");
-    src: url("../fonts/EurofurenceLight/EurofurenceLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/EurofurenceLight/EurofurenceLight.woff") format("woff"),
-    url("../fonts/EurofurenceLight/EurofurenceLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "EurofurenceBoldItalic"; */
-@font-face {
-    font-family: "EurofurenceBoldItalic";
-    src: url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.eot");
-    src: url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.woff") format("woff"),
-    url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "EurofurenceLightItalic"; */
-@font-face {
-    font-family: "EurofurenceLightItalic";
-    src: url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.eot");
-    src: url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.woff") format("woff"),
-    url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+/* font-family: "OpenSans-BoldItalic"; */
+	@font-face {
+	font-family: "OpenSans-BoldItalic";
+	src: url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot");
+	src: url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff") format("woff"),
+	url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }

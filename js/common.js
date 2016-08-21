@@ -1,13 +1,5 @@
 $(document).ready(function() {
 
-	$(".auth_buttons").click(function() {
-		$(this).next().slideToggle();
-	});
-
-	$(".mnu_button").click(function() {
-		$(".main_mnu ul").slideToggle();
-	});
-
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
@@ -37,8 +29,8 @@ $(document).ready(function() {
 
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
-	$(".works").click(function() {
-		$.scrollTo($(".main_content"), 800, {
+	$("a.scroll").click(function() {
+		$.scrollTo($(".div"), 800, {
 			offset: -90
 		});
 	});
@@ -47,9 +39,7 @@ $(document).ready(function() {
 	//Документация: http://owlgraphic.com/owlcarousel/
 	var owl = $(".carousel");
 	owl.owlCarousel({
-		items : 2,
-		autoPlay: 5000,
-		autoHeight : true
+		items : 4
 	});
 	owl.on("mousewheel", ".owl-wrapper", function (e) {
 		if (e.deltaY > 0) {
@@ -70,7 +60,7 @@ $(document).ready(function() {
 	//Документация:
 	//http://api.jquery.com/scrolltop/
 	//http://api.jquery.com/animate/
-	$(".arrow").click(function () {
+	$("#top").click(function () {
 		$("body, html").animate({
 			scrollTop: 0
 		}, 800);
@@ -79,11 +69,11 @@ $(document).ready(function() {
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("#callback").submit(function() {
+	$("form").submit(function() {
 		$.ajax({
 			type: "GET",
 			url: "mail.php",
-			data: $("#callback").serialize()
+			data: $("form").serialize()
 		}).done(function() {
 			alert("Спасибо за заявку!");
 			setTimeout(function() {
